@@ -1,6 +1,8 @@
 body {
 	font-family: "Raleway", sans-serif;
 }
+
+/* Header */
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -169,3 +171,4 @@ header div ul li span {
 	border-radius: 50%;
 }
 
+/* Header */
