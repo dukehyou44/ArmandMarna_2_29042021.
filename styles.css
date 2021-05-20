@@ -24,11 +24,11 @@ a:hover {
 nav ul li:nth-child(3) {
 	font-weight: bold; color: #0065FC;
 }
-header h1 {
+body h1 {
 	font-weight: bold;
 	font-size: 16px
 }
-header p {
+body p {
 	font-size: 12px;
 }
 button {
@@ -171,4 +171,68 @@ header div ul li span {
 	border-radius: 50%;
 }
 
-/* Header */
+/* Section_1 */
+
+main h2 {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 5px 0 0 0;
+}
+main p {
+	margin: 5px 0 0 0;
+}
+
+.article_hebergements {
+	width: 230px;
+	height: 185px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+section article img {
+	width: 97%;
+	height: 60%;
+	object-fit: cover;
+	border-radius: 10px 10px 0 0;
+	padding: 3px;
+}
+.description_hotel {
+	padding-left: 15px;
+	background-color: #ffffff;
+}
+#étoiles1,#étoiles2,#étoiles3,#étoiles4,#étoiles6 {
+	color: #0065FC;
+	font-size: 8px;
+}
+#étoiles5,#étoiles7 {
+	color: #F2F2F2;
+	font-size: 8px;
+}
+section span {
+	font-weight: bold;
+}
+main section {
+	display: flex;
+	flex-direction: column;
+}
+main div {
+	background-color: #F2F2F2;
+	border-radius: 15px;
+	width: 65%;
+}
+main section {
+	display: flex;
+	flex-flow : row wrap;
+	justify-content: space-around;
+}
+main section article {
+	margin: 35px 0 0 0;
+}
+main div h1 {
+	padding: 20px 0 0 20px;
+}
+#afficher_plus {
+	padding: 20px 0 20px 20px;
+	font-weight: bold;
+}
