@@ -3,6 +3,10 @@ body {
 }
 
 /* Header */
+
+header {
+	margin: 20px 30px 0 30px;
+}
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -18,7 +22,7 @@ nav ul li a {
 	color: #000000;
 	text-decoration: none;
 }
-a:hover {
+nav ul li a:hover {
 	color: #0065FC;
 }
 nav ul li:nth-child(3) {
@@ -80,6 +84,13 @@ header div ul li {
 	display: flex;
 	align-items: center;
 	margin: 0 10px 0 10px;
+}
+header ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+header div ul li a:hover {
+	background-color: #0065FC;
 }
 #éco_logo {
 	background-color: #DEEBFF;
@@ -173,6 +184,9 @@ header div ul li span {
 
 /* Section_1 */
 
+main {
+	margin: 30px 30px 0 30px;
+}
 main h2 {
 	font-size: 13px;
 	font-weight: bold;
@@ -181,7 +195,10 @@ main h2 {
 main p {
 	margin: 5px 0 0 0;
 }
-
+.section_hebergements a {
+	color: #000000;
+	text-decoration: none;
+}
 .article_hebergements {
 	width: 230px;
 	height: 185px;
@@ -201,11 +218,11 @@ main p {
 	padding-left: 15px;
 	background-color: #ffffff;
 }
-#étoiles1,#étoiles2,#étoiles3,#étoiles4,#étoiles6 {
+#étoiles1,#étoiles2,#étoiles3,#étoiles4,#étoiles6,#étoiles7,#étoiles8,#étoiles9,#étoiles10,#étoiles11,#étoiles12,#étoiles13,#étoiles14,#étoiles16,#étoiles17,#étoiles18,#étoiles21,#étoiles22,#étoiles23,#étoiles24,#étoiles26,#étoiles27,#étoiles28,#étoiles29,#étoiles30,#étoiles31,#étoiles32,#étoiles33,#étoiles34,#étoiles35,#étoiles36,#étoiles37,#étoiles38,#étoiles39,#étoiles41,#étoiles42,#étoiles43,#étoiles44 {
 	color: #0065FC;
 	font-size: 8px;
 }
-#étoiles5,#étoiles7 {
+#étoiles5,#étoiles15,#étoiles19,#étoiles20,#étoiles25,#étoiles40,#étoiles45 {
 	color: #F2F2F2;
 	font-size: 8px;
 }
@@ -253,6 +270,10 @@ main aside {
 main aside article {
 	margin: 35px 0 20px 0;
 }
+aside a {
+	color: #000000;
+	text-decoration: none;
+}
 .article_populaires {
 	background-color: #ffffff;
 	border-radius: 15px;
@@ -288,7 +309,10 @@ aside span {
 }
 
 /*Section_2*/
-
+#activites a {
+	color: #000000;
+	text-decoration: none;
+}
 #activites {
 	display: flex;
 	flex-direction: row;
@@ -348,3 +372,30 @@ aside span {
 	box-shadow: 0 0 5px 5px #F2F2F2;
 }
 
+/*Footer*/
+
+footer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: #F2F2F2;
+	justify-content: space-around;
+	margin:30px 0 0 0;
+}
+.elements_footer {
+	display: flex;
+	flex-direction: column;
+}
+footer div ul {
+	list-style: none;
+	padding-left: 0;
+}
+footer h3 {
+	font-size: 13px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+footer li {
+	font-size: 12px;
+	padding-top: 5px;
+}
