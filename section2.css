@@ -1,0 +1,63 @@
+/*Section_2*/
+#activites a {
+	color: #000000;
+	text-decoration: none;
+}
+#activites {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+}
+.vieux_port,.parc_des_calanques {
+	display: flex;
+	flex-direction: column;
+	height: 440px;
+	width: 285px;
+	background-color: #ffffff;
+	border-radius: 15px;
+}
+#img_vieux_port, #img_parc_des_calanques {
+	height: 90%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+.activites_pomegues_et_frioul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}	
+.fort_de_pomegues,.parc_longchamp {
+	height: 245px;
+	width: 285px;
+	background-color: #ffffff;
+	border-radius: 15px;
+}
+#img_fort_pomegues,#img_parc_longchamp {
+	height: 80%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+.ile_du_frioul,.notre_dame {
+	height: 155px;
+	width: 285px;
+	background-color: #ffffff;
+	border-radius: 15px;
+}
+#img_ile_du_frioul,#img_notre_dame {
+	height: 70%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+#activites h2 {
+	padding-left: 15px;
+}
+.parc_des_calanques h2, .vieux_port h2 {
+	padding-top: 5px;
+}
+#activites article {
+	box-shadow: 0 0 5px 5px #F2F2F2;
+}

@@ -1,0 +1,58 @@
+/*Aside*/
+
+#populaires {
+	background-color: #F2F2F2;
+	border-radius: 15px;
+	width: 35%;
+	margin-left: 30px;
+}
+#logo_statistiques {
+	float: right;
+	margin-top: -30px;
+	margin-right: 20px;
+}
+main aside {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+main aside article {
+	margin: 15px 0 20px 0;
+}
+aside a {
+	color: #000000;
+	text-decoration: none;
+}
+.article_populaires {
+	background-color: #ffffff;
+	border-radius: 15px;
+	width: 320px;
+	height: 145px;
+	display: flex;
+	flex-direction: row;
+}
+aside img {
+	border-radius: 15px 0 0 15px;
+	height: 97%;
+	width: 40%;
+	object-fit: cover;
+	padding: 3px;
+}
+.description_hotel_populaires {
+	padding-left: 15px;
+	background-color: #ffffff;
+	width: 115px;
+}
+aside h2 {
+	padding: 10px 0 0 0;
+}
+.étoiles_populaires  {
+	padding: 50px 0 0 0;
+}
+aside span {
+	font-weight: bold;
+}
+.partie1_main {
+	display: flex;
+	flex-direction: row;
+}
