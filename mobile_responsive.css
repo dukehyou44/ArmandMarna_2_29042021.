@@ -4,11 +4,15 @@
 
 	body {
 		width: auto;
+		margin:0;
 	}
 	.page {
 		width: auto;
 		margin: 0;
 	}
+	main {
+		margin: 30px 0 0 0;
+	}	
 	header {
 		width: auto;
 	}
@@ -152,6 +156,7 @@
     footer {
     	flex-direction: column;
     	width: auto;
+	margin:0;    
     }
     .elements_footer {
     	margin-left: 30px;
