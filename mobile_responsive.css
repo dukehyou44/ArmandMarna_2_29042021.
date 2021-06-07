@@ -1,6 +1,6 @@
 /*Medias*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 351px) {
 
 	body {
 		width: auto;
@@ -37,6 +37,7 @@
 	.filtres {
 		width: auto;
 		flex-direction: column;
+        padding-top: 0;
 	}
 	.filtres h2 {
 		align-items: flex-start;
@@ -53,7 +54,10 @@
 		margin: 0 10px 10px 0;
 	}
     form {
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+    input[type=search] {
+        width: 100%;
     }
 	.loupe {
 		display: flex;
@@ -90,7 +94,6 @@
     .article_hebergements {
     	width: 90%;
     	margin-left: 5%;
-        box-shadow: 0 0 5px 5px #F2F2F2;
     }
     #afficher_plus {
         padding: 20px 0 0 20px;
@@ -103,14 +106,13 @@
     .article_populaires {
     	width: 90%;
     	margin-left: 5%;
-        box-shadow: 0 0 5px 5px #F2F2F2;
     }
     #activites {
     	flex-direction: column;
     }
     .vieux_port {
     	width: 90%;
-    	margin: 15px 0 20px 20px;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_vieux_port {
@@ -118,7 +120,7 @@
     }
     .fort_de_pomegues {
     	width: 90%;
-    	margin: 15px 0 20px 20px;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_fort_pomegues {
@@ -126,7 +128,7 @@
     }
     .ile_du_frioul {
     	width: 90%;
-    	margin: 15px 0 20px 20px;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_ile_du_frioul {
@@ -134,7 +136,7 @@
     }
     .parc_des_calanques {
     	width: 90%;
-    	margin: 15px 0 20px 20px;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_parc_des_calanques {
@@ -142,7 +144,7 @@
     }
     .notre_dame {
     	width: 90%;
-        margin: 15px 0 20px 20px;
+        margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_notre_dame {
@@ -150,7 +152,7 @@
     }
     .parc_longchamp {
     	width: 90%;
-    	margin: 15px 0 20px 20px;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_parc_longchamp {
@@ -159,17 +161,8 @@
     footer {
     	flex-direction: column;
     	width: auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
     .elements_footer {
     	margin-left: 30px;
-
-    }
-    footer h4 {
-        margin-bottom: auto;
-    }
-    footer div ul {
-        margin-top: 10px;
     }
 }

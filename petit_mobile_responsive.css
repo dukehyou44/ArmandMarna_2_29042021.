@@ -1,6 +1,10 @@
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+/*Medias*/
+
+@media screen and (max-width: 350px) and (min-width: 280px ) {
+
 	body {
 		width: auto;
+        margin: 0;
 	}
 	.page {
 		width: auto;
@@ -30,17 +34,16 @@
 	.sinscrire {
 		order: 0;
 	}
-	header h1 {
-		padding-top: 20px;
-	}
 	.filtres {
 		width: auto;
 		flex-direction: column;
+        padding-top: 0;
 	}
 	.filtres h2 {
 		align-items: flex-start;
 		justify-content: flex-start;
 		margin-top: 30px;
+        margin-bottom: auto;
 	}
 	.filtres ul {
 		flex-wrap: wrap;
@@ -50,8 +53,14 @@
 	.filtres ul li {
 		margin: 0 10px 10px 0;
 	}
+    form {
+        margin-top: 20px;
+    }
+    input[type=search] {
+        width: 80%;
+    }
 	.loupe {
-		display: none;
+		display: flex;
 	}
 	label {
 		align-items: center;
@@ -62,79 +71,98 @@
         border-radius: 10px;
         background-color: #0065FC;
 	}
+	button {
+		display: none;
+	}
 	label i {
 		color: #ffffff;
 	}
+    main {
+        margin: 30px 0 0 0;
+    }
 	.partie1_main {
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 	#Hébergements {
 		width: auto;
-		margin-bottom: 30px;
+		border-radius: 0;
+		background-color: #ffffff;
 	}
 	.section_hebergements {
     align-items: center;
     }
     .article_hebergements {
-    	width: 220px;
+    	width: 90%;
+    	margin-left: 5%;
     }
     #afficher_plus {
-        padding: 10px 0 15px 20px;
+        padding: 20px 0 0 20px;
     }
     #populaires {
+    	border-radius: 0;
     	margin-left: 0;
     	width: auto;
     }
+    .article_populaires {
+    	width: 90%;
+    	margin-left: 5%;
+    }
     #activites {
-    	flex-flow: row wrap;
-    	justify-content: space-around;
+    	flex-direction: column;
     }
     .vieux_port {
-    	margin: 15px 0 20px 20px;
+    	width: 90%;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_vieux_port {
     	height: 80%;
     }
     .fort_de_pomegues {
-    	margin: 15px 0 20px 20px;
+    	width: 90%;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_fort_pomegues {
     	height: 80%;
     }
     .ile_du_frioul {
-    	margin: 15px 0 20px 20px;
+    	width: 90%;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_ile_du_frioul {
     	height: 80%;
     }
     .parc_des_calanques {
-    	margin: 15px 0 20px 20px;
+    	width: 90%;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_parc_des_calanques {
     	height: 80%;
     }
     .notre_dame {
-        margin: 15px 0 20px 20px;
+    	width: 90%;
+        margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_notre_dame {
     	height: 80%;
     }
     .parc_longchamp {
-    	margin: 15px 0 20px 20px;
+    	width: 90%;
+    	margin: 15px 0 20px 5%;
     	height: 180px;
     }
     #img_parc_longchamp {
     	height: 80%;
     }
-    .activites_pomegues_et_frioul {
-    	order: -1;
-    }
     footer {
+    	flex-direction: column;
     	width: auto;
+    }
+    .elements_footer {
+    	margin-left: 30px;
     }
 }

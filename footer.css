@@ -8,6 +8,8 @@ footer {
 	background-color: #F2F2F2;
 	justify-content: space-around;
 	margin:30px 0 0 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .elements_footer {
 	display: flex;
@@ -16,11 +18,13 @@ footer {
 footer div ul {
 	list-style: none;
 	padding-left: 0;
+	margin-top: 10px;
 }
-footer h3 {
+footer h4 {
 	font-size: 13px;
 	font-weight: bold;
-	padding-top: 15px;
+	margin-bottom: auto;
+	margin-bottom: 0;
 }
 footer li {
 	font-size: 12px;

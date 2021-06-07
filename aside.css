@@ -30,6 +30,7 @@ aside a {
 	height: 145px;
 	display: flex;
 	flex-direction: row;
+	box-shadow: 0 0 5px 5px #e5e5e5;
 }
 aside img {
 	border-radius: 15px 0 0 15px;

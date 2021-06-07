@@ -1,6 +1,7 @@
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1256px) and (min-width: 1024px) {
 	body {
 		width: auto;
+        margin: 0;
 	}
 	.page {
 		width: auto;
@@ -50,6 +51,9 @@
 	.filtres ul li {
 		margin: 0 10px 10px 0;
 	}
+    input[type=search] {
+        width: 50%;
+    }
 	.loupe {
 		display: none;
 	}
@@ -76,7 +80,7 @@
     align-items: center;
     }
     .article_hebergements {
-    	width: 220px;
+    	width: 250px;
     }
     #afficher_plus {
         padding: 10px 0 15px 20px;
@@ -92,6 +96,7 @@
     .vieux_port {
     	margin: 15px 0 20px 20px;
     	height: 180px;
+        width: 320px;
     }
     #img_vieux_port {
     	height: 80%;
@@ -99,6 +104,7 @@
     .fort_de_pomegues {
     	margin: 15px 0 20px 20px;
     	height: 180px;
+        width: 320px;
     }
     #img_fort_pomegues {
     	height: 80%;
@@ -106,6 +112,7 @@
     .ile_du_frioul {
     	margin: 15px 0 20px 20px;
     	height: 180px;
+        width: 320px;
     }
     #img_ile_du_frioul {
     	height: 80%;
@@ -113,6 +120,7 @@
     .parc_des_calanques {
     	margin: 15px 0 20px 20px;
     	height: 180px;
+        width: 320px;
     }
     #img_parc_des_calanques {
     	height: 80%;
@@ -120,6 +128,7 @@
     .notre_dame {
         margin: 15px 0 20px 20px;
     	height: 180px;
+        width: 320px;
     }
     #img_notre_dame {
     	height: 80%;
@@ -127,6 +136,7 @@
     .parc_longchamp {
     	margin: 15px 0 20px 20px;
     	height: 180px;
+        width: 320px;
     }
     #img_parc_longchamp {
     	height: 80%;
