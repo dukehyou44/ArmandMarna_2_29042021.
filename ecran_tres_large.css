@@ -1,13 +1,13 @@
-@media screen and (min-width: 1520px) {
+@media screen and (min-width: 2320px) {
 
     .article_hebergements {
         width: 295px;
-        margin: 15px 20px;
+        margin: 15px 78px;
     }
     #activites article {
         width: 390px;
     }
     nav ul {
-        margin-left: 73%;
+        margin-left: 82%;
     }
 }
