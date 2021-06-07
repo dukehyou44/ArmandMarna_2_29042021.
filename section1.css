@@ -22,7 +22,7 @@ main p {
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 0 0 5px 5px #F2F2F2;
+	box-shadow: 0 0 5px 5px #e5e5e5;
 }
 .article_hebergements img {
 	width: 97%;
