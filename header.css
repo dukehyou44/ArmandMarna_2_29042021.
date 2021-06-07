@@ -56,6 +56,11 @@ button {
 	width: 110px;
 	border:none;
 }
+input#maRecherche {
+	font-weight: bold;
+	font-family: "Raleway", sans serif;
+	text-align: center;
+}
 input[type=search] {
 	background-color: #ffffff;
 	height: 40px;
